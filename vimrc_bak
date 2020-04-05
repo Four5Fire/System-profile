@@ -1,290 +1,26 @@
+" vim-plug
 if empty(glob('~/.vim/autoload/plug.vim'))
   silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
     \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
   autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
 endif
-
 call plug#begin('~/.vim/bundle')
-Plug 'junegunn/vim-plug'                                        " 插件管理器
+Plug 'junegunn/vim-plug'                                        " 插件管理
 Plug 'preservim/nerdtree'                                       " 标签树
 Plug 'ryanoasis/vim-devicons'                                   " 标签树美化
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'                  " 标签树美化
 Plug 'vim-airline/vim-airline'                                  " 状态栏
 Plug 'vim-airline/vim-airline-themes'                           " 状态栏主题
-Plug 'Yggdroot/LeaderF', { 'do': './install.sh' }               " 模糊查找器
-Plug 'dense-analysis/ale'                                       " 多语言语法检查与语义错误
-Plug 'neoclide/coc.nvim', {'do': 'yarn install --frozen-lockfile'}    " 代码补全
-Plug 'preservim/nerdcommenter'                                  " 代码注释插件
-Plug 'Yggdroot/indentLine'                                      " 缩进指示线
-Plug 'aperezdc/vim-template'                                    " 文件类型模板
-Plug 'jiangmiao/auto-pairs'                                     " 括号自动匹配
+Plug 'preservim/nerdcommenter'                                  " 注释
+Plug 'Yggdroot/indentLine'                                      " 缩进线
+Plug 'jiangmiao/auto-pairs'                                     " 括号匹配
 Plug 'kien/rainbow_parentheses.vim'                             " 彩虹括号
-Plug '/usr/local/opt/fzf'                                       " fzf
+Plug 'aperezdc/vim-template'                                    " 模板
+Plug 'Yggdroot/LeaderF', { 'do': './install.sh' }               " 模糊查找
 Plug 'airblade/vim-gitgutter'                                   " git
 Plug 'tpope/vim-fugitive'                                       " git
-Plug 'junegunn/fzf.vim'     
-call plug#end()
-
-
-
-" nerdtree & vim-devicons & vim-nerdtree-syntax-highlight
-" F2开启和关闭树
-" autocmd vimenter * NERDTree
-map <F2> :NERDTreeToggle<CR>
-let NERDTreeChDirMode=1
-" 显示书签"
-let NERDTreeShowBookmarks=1
-" 设置忽略文件类型"
-let NERDTreeIgnore=['\~$', '\.pyc$', '\.swp$']
-" 窗口大小"
-let NERDTreeWinSize=25
-
-
-
-" vim-airline
-" tab栏
-let g:airline#extensions#tabline#enabled = 1
-let g:airline#extensions#tabline#left_sep = ' '
-let g:airline#extensions#tabline#left_alt_sep = '|'
-let g:airline#extensions#tabline#formatter = 'default'
-let g:airline#extensions#tabline#buffer_nr_show=1
-" vim-airline-themes
-" vim-airline主题
-let g:airline_theme = 'simple'
-
-" Coc global
-" 代码补全
-let g:coc_global_extensions = ['coc-json', 'coc-css', 'coc-clangd', 'coc-git', 'coc-java', 'coc-python', 'coc-xml', 'coc-yaml', 'coc-pairs', 'coc-highlight']
-
-" LeaderF
-" 搜索结果自下而上 
-let g:Lf_ReverseOrder = 1 
-
-
-
-" ale
-" 启用ALE代码补全
-let g:ale_completion_enabled = 1
-" 始终开启标志列
-let g:ale_sign_column_always = 1
-let g:ale_set_highlights = 0
-" 自定义error和warning图标
-let g:ale_sign_error = '>>'
-let g:ale_sign_warning = '--'
-" 在vim自带的状态栏中整合ale
-let g:ale_statusline_format = ['✗ %d', '⚡ %d', '✔ OK']
-
-" 显示Linter名称,出错或警告等相关信息
-let g:ale_echo_msg_error_str = 'E'
-let g:ale_echo_msg_warning_str = 'W'
-let g:ale_echo_msg_format = '[%linter%] %s [%severity%]'
-
-" 普通模式下，sp前往上一个错误或警告，sn前往下一个错误或警告
-nmap sp <Plug>(ale_previous_wrap)
-nmap sn <Plug>(ale_next_wrap)
-" <Leader>s 触发/关闭语法检查
-nmap <Leader>s :ALEToggle<CR>
-" <Leader>i 查看错误或警告的详细信息
-nmap <Leader>i :ALEDetail<CR>
-" 错误行高度
-let g:ale_list_window_size = 5
-
-" 集成airline
-let g:airline#extensions#ale#enabled = 1 
-" 格式化引擎
-let g:ale_fixers = {
-            \   'c': ['clang-format'],
-            \   'c++': ['clang-format'],
-            \   'python': ['autopep8','yapf'],
-            \}
-" F3格式化代码
-noremap <F3> :ALEFix<CR>
-" 保存时自动格式化
-let g:ale_fix_on_save = 1
-" 语法检查引擎
-let g:ale_linters = {
-            \   'c++': ['clang'],
-            \   'c': ['clang'],
-            \   'python': ['flake8','autopep8','pyls'],
-            \}
-" <leader>d 跳转定义
-noremap <leader>d :ALEGoToDefinition<CR>
-" <leader>r 跳转引用
-noremap <leader>r :ALEFindReferences<CR>
-" <leader>h 悬浮显示信息
-noremap <leader>h :ALEHover<CR>
-
-
-
-" 离开插入模式后自动关闭预览窗口"
-autocmd InsertLeave * if pumvisible() == 0|pclose|endif
-" <leader>d 跳转定义
-noremap <leader>d :YcmCompleter GoToDefinition<CR>
-" <leader>r 跳转引用
-noremap <leader>r :YcmCompleter GoToReferences<CR>
-
-
-
-" nerdcommenter
-" 注释号后添加空格
-let g:NERDSpaceDelims = 1
-" 多行注释使用紧凑语法
-let g:NERDCompactSexyComs = 1
-" 注释号在行最前而不是跟随缩进
-let g:NERDDefaultAlign = 'left'
-" Set a language to use its alternate delimiters by default
-"let g:NERDAltDelims_python = 1
-" 允许注释空行
-let g:NERDCommentEmptyLines = 1
-" 取消注释时启用尾随空白的修剪
-let g:NERDTrimTrailingWhitespace = 1
-" 检查所有选定的行是否已经注释
-let g:NERDToggleCheckAllLines = 1
-map <F6> <leader>ci <CR>
-
-
-
-" indentLine
-" 缩进指示线
-let g:indentLine_char='┆'
-let g:indentLine_enabled = 1 
-" let g:indentLine_setColors = 0
-
-
-
-" rainbow_parentheses
-" 彩虹括号
-let g:rbpt_colorpairs = [
-    \ ['brown',       'RoyalBlue3'],
-    \ ['Darkblue',    'SeaGreen3'],
-    \ ['darkgray',    'DarkOrchid3'],
-    \ ['darkgreen',   'firebrick3'],
-    \ ['darkcyan',    'RoyalBlue3'],
-    \ ['darkred',     'SeaGreen3'],
-    \ ['darkmagenta', 'DarkOrchid3'],
-    \ ['brown',       'firebrick3'],
-    \ ['gray',        'RoyalBlue3'],
-    \ ['black',       'SeaGreen3'],
-    \ ['darkmagenta', 'DarkOrchid3'],
-    \ ['Darkblue',    'firebrick3'],
-    \ ['darkgreen',   'RoyalBlue3'],
-    \ ['darkcyan',    'SeaGreen3'],
-    \ ['darkred',     'DarkOrchid3'],
-    \ ['red',         'firebrick3'],
-    \ ]
-let g:rbpt_max = 16
-au VimEnter * RainbowParenthesesToggle
-au Syntax * RainbowParenthesesLoadRound
-au Syntax * RainbowParenthesesLoadSquare
-au Syntax * RainbowParenthesesLoadBraces
-
-
-
-
-
-
-" Quickly Run
-map <F5> :call CompileRunGcc()<CR>
-func! CompileRunGcc()
-    exec "w"
-    if &filetype == 'c'
-        exec "!g++ % -o %<"
-        exec "!time ./%<"
-    elseif &filetype == 'cpp'
-        exec "!g++ % -o %<"
-        exec "!time ./%<"
-    elseif &filetype == 'java'
-        exec "!javac %"
-        exec "!time java %<"
-    elseif &filetype == 'sh'
-        :!time bash %
-    elseif &filetype == 'python'
-        exec "!time python3 %"
-    elseif &filetype == 'html'
-        exec "!google-chrome % &"
-    elseif &filetype == 'go'
-        "        exec "!go build %<"
-        exec "!time go run %"
-    elseif &filetype == 'markdown'
-        exec "!~/.vim/markdown.pl % > %.html &"
-        exec "!google-chrome %.html &"
-    endif
-endfunc
-
-
-" vue high light
-au BufRead,BufNewFile *.vue set filetype=html
-
-map <leader>k :bnext <CR>
-map <leader>j :bprevious <CR>
-
-" 隐藏滚动条"
-set guioptions-=r
-set guioptions-=L
-set guioptions-=b
-
-" 基础配置"
-set nocompatible                        " 不兼容vi
-set hidden                              " 允许隐藏未保存的buffer 
-set number                              " 显示行号
-set showtabline=0                       " 隐藏顶部标签栏
-set foldenable                          " 启用折叠
-set foldmethod=indent                   " 折叠设置
-set foldlevelstart=99                   " 打开文件默认不折叠
-set nowrap                              " 设置不折行
-set fileformat=unix                     " 设置以unix的格式保存文件
-set cindent                             " 设置C样式的缩进格式
-set expandtab                           " 空格替换tab
-set tabstop=4                           " 设置table长度
-set shiftwidth=4                        " 同上
-set showmatch                           " 显示匹配的括号
-set scrolloff=5                         " 距离顶部和底部5行
-set laststatus=2                        " 命令行为两行
-set fenc=utf-8                          " 文件编码
-set enc=utf-8                           " 文件显示编码
-set backspace=2                         " 退格可以删除任意字符
-set matchtime=5                         " 括号配对时间单位0.1s
-set ignorecase                          " 忽略大小写
-set incsearch                           " 打开显示查找匹配过程
-set hlsearch                            " 高亮搜索项
-set whichwrap+=<,>,h,l                  " 开启自动折行
-set autoread                            " vim外修改后自动读入
-set cursorline                          " 突出显示当前行
-set cursorcolumn                        " 突出显示当前列
-" set mouse=a                             " 启用鼠标
-
-if has('mouse') 
-	set mouse-=a                        " 鼠标选中时不进入visual模式 
-endif 
-
-set clipboard=unnamed
-set selection=exclusive
-set selectmode=mouse,key
-syntax on                               " 开启语法高亮
-
-let g:email = "ljyswzxhdtz@gmail.com"
-
-if empty(glob('~/.vim/autoload/plug.vim'))
-  silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
-    \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-  autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
-endif
-
-call plug#begin('~/.vim/bundle')
-Plug 'junegunn/vim-plug'                                        " 插件管理器
-Plug 'preservim/nerdtree'                                       " 标签树
-Plug 'ryanoasis/vim-devicons'                                   " 标签树美化
-Plug 'tiagofumo/vim-nerdtree-syntax-highlight'                  " 标签树美化
-Plug 'vim-airline/vim-airline'                                  " 状态栏
-Plug 'vim-airline/vim-airline-themes'                           " 状态栏主题
-Plug 'Yggdroot/LeaderF', { 'do': './install.sh' }               " 模糊查找器
-Plug 'dense-analysis/ale'                                       " 多语言语法检查与语义错误
+Plug 'dense-analysis/ale'                                       " 语义检查
 Plug 'neoclide/coc.nvim', {'do': 'yarn install --frozen-lockfile'}    " 代码补全
-Plug 'preservim/nerdcommenter'                                  " 代码注释插件
-Plug 'Yggdroot/indentLine'                                      " 缩进指示线
-Plug 'aperezdc/vim-template'                                    " 文件类型模板
-Plug 'jiangmiao/auto-pairs'                                     " 括号自动匹配
-Plug 'kien/rainbow_parentheses.vim'                             " 彩虹括号
 Plug '/usr/local/opt/fzf'                                       " fzf
 Plug 'airblade/vim-gitgutter'                                   " git
 Plug 'tpope/vim-fugitive'                                       " git
@@ -294,115 +30,31 @@ call plug#end()
 
 
 
-" nerdtree & vim-devicons & vim-nerdtree-syntax-highlight
-" F2开启和关闭树
-" autocmd vimenter * NERDTree
+" #################### nerdtree ####################
+" F2开启
 map <F2> :NERDTreeToggle<CR>
 let NERDTreeChDirMode=1
-" 显示书签"
+" 显示书签
 let NERDTreeShowBookmarks=1
-" 设置忽略文件类型"
+" 忽略类型
 let NERDTreeIgnore=['\~$', '\.pyc$', '\.swp$']
-" 窗口大小"
+" 窗宽
 let NERDTreeWinSize=25
 
 
 
-" vim-airline
-" tab栏
+" #################### airline ####################
+" 顶栏
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#left_sep = ' '
 let g:airline#extensions#tabline#left_alt_sep = '|'
 let g:airline#extensions#tabline#formatter = 'default'
 let g:airline#extensions#tabline#buffer_nr_show=1
-" vim-airline-themes
-" vim-airline主题
 let g:airline_theme = 'simple'
 
-" Coc global
-" 代码补全
-let g:coc_global_extensions = ['coc-json', 'coc-css', 'coc-clangd', 'coc-git', 'coc-java', 'coc-python', 'coc-xml', 'coc-yaml', 'coc-pairs', 'coc-highlight']
-
-function! s:check_back_space() abort
-    let col = col('.') - 1
-    return !col || getline('.')[col - 1]  =~ '\s'
-endfunction
-
-inoremap <silent><expr> <TAB>
-    \ pumvisible() ? "\<C-n>" :
-    \ <SID>check_back_space() ? "\<TAB>" :
-    \ coc#refresh()
-
-" LeaderF
-" 搜索结果自下而上 
-let g:Lf_ReverseOrder = 1 
 
 
-
-" ale
-" 启用ALE代码补全
-let g:ale_completion_enabled = 1
-" 始终开启标志列
-let g:ale_sign_column_always = 1
-let g:ale_set_highlights = 0
-" 自定义error和warning图标
-let g:ale_sign_error = '>>'
-let g:ale_sign_warning = '--'
-" 在vim自带的状态栏中整合ale
-let g:ale_statusline_format = ['✗ %d', '⚡ %d', '✔ OK']
-
-" 显示Linter名称,出错或警告等相关信息
-let g:ale_echo_msg_error_str = 'E'
-let g:ale_echo_msg_warning_str = 'W'
-let g:ale_echo_msg_format = '[%linter%] %s [%severity%]'
-
-" 普通模式下，sp前往上一个错误或警告，sn前往下一个错误或警告
-nmap sp <Plug>(ale_previous_wrap)
-nmap sn <Plug>(ale_next_wrap)
-" <Leader>s 触发/关闭语法检查
-nmap <Leader>s :ALEToggle<CR>
-" <Leader>i 查看错误或警告的详细信息
-nmap <Leader>i :ALEDetail<CR>
-" 错误行高度
-let g:ale_list_window_size = 5
-
-" 集成airline
-let g:airline#extensions#ale#enabled = 1 
-" 格式化引擎
-let g:ale_fixers = {
-            \   'c': ['clang-format'],
-            \   'c++': ['clang-format'],
-            \   'python': ['autopep8','yapf'],
-            \}
-" F3格式化代码
-noremap <F3> :ALEFix<CR>
-" 保存时自动格式化
-let g:ale_fix_on_save = 1
-" 语法检查引擎
-let g:ale_linters = {
-            \   'c++': ['clang'],
-            \   'c': ['clang'],
-            \   'python': ['flake8','autopep8','pyls'],
-            \}
-" <leader>d 跳转定义
-noremap <leader>d :ALEGoToDefinition<CR>
-" <leader>r 跳转引用
-noremap <leader>r :ALEFindReferences<CR>
-" <leader>h 悬浮显示信息
-noremap <leader>h :ALEHover<CR>
-
-
-
-" 离开插入模式后自动关闭预览窗口"
-autocmd InsertLeave * if pumvisible() == 0|pclose|endif
-" <leader>gd 跳转定义
-nmap <leader>gd <Plug>(coc-definition)
-" <leader>gr 跳转引用
-nmap <leader>gr <Plug>(coc-references)
-" <leader>gi 跳转实现
-nmap <leader>gi <Plug>(coc-implementation)
-
-" nerdcommenter
+" #################### nerdcommenter ####################
 " 注释号后添加空格
 let g:NERDSpaceDelims = 1
 " 多行注释使用紧凑语法
@@ -421,16 +73,14 @@ map <F6> <leader>ci <CR>
 
 
 
-" indentLine
+" #################### indentLine ####################
 " 缩进指示线
 let g:indentLine_char='┆'
 let g:indentLine_enabled = 1 
 " let g:indentLine_setColors = 0
 
 
-
-" rainbow_parentheses
-" 彩虹括号
+" #################### rainbow_parentheses ####################
 let g:rbpt_colorpairs = [
     \ ['brown',       'RoyalBlue3'],
     \ ['Darkblue',    'SeaGreen3'],
@@ -457,12 +107,93 @@ au Syntax * RainbowParenthesesLoadBraces
 
 
 
+" #################### LeaderF ####################
+" 搜索结果自下而上 
+let g:Lf_ReverseOrder = 1 
+" 查找function/method
+nmap <Leader>m :LeaderfFunction<CR>
+
+
+
+" #################### ale ####################
+" 启用补全
+let g:ale_completion_enabled = 1
+" 始终开启标志列
+let g:ale_sign_column_always = 1
+let g:ale_set_highlights = 0
+" error和warning图标
+let g:ale_sign_error = '>>'
+let g:ale_sign_warning = '--'
+
+" vim自带状态栏中整合ale
+" let g:ale_statusline_format = ['✗ %d', '⚡ %d', '✔ OK']
+" let g:ale_echo_msg_error_str = 'E'
+" let g:ale_echo_msg_warning_str = 'W'
+" let g:ale_echo_msg_format = '[%linter%] %s [%severity%]'
+
+" 集成airline
+let g:airline#extensions#ale#enabled = 1 
+
+" sp上个错误或警告，sn下个错误或警告
+nmap sp <Plug>(ale_previous_wrap)
+nmap sn <Plug>(ale_next_wrap)
+" <Leader>s 触发/关闭语法检查
+nmap <Leader>s :ALEToggle<CR>
+" <Leader>i 查看错误或警告的详细信息
+nmap <Leader>i :ALEDetail<CR>
+" 错误行高度
+let g:ale_list_window_size = 5
+" 格式化引擎
+let g:ale_fixers = {
+            \   'c': ['clang-format'],
+            \   'c++': ['clang-format'],
+            \   'python': ['autopep8','yapf','isort'],
+            \}
+" F3格式化
+noremap <F3> :ALEFix<CR>
+" 保存时格式化
+let g:ale_fix_on_save = 1
+" 语法检查引擎
+let g:ale_linters = {
+            \   'c++': ['clang'],
+            \   'c': ['clang'],
+            \   'python': ['flake8','autopep8','pyls'],
+            \}
+" <leader>d 转定义
+noremap <leader>d :ALEGoToDefinition<CR>
+" <leader>r 转引用
+noremap <leader>r :ALEFindReferences<CR>
+" <leader>h 悬浮信息
+noremap <leader>h :ALEHover<CR>
+
+
+
+" #################### coc ####################
+let g:coc_global_extensions = ['coc-json', 'coc-css', 'coc-clangd', 'coc-git', 'coc-java', 'coc-python', 'coc-xml', 'coc-yaml', 'coc-pairs', 'coc-highlight']
+
+" <leader>gd 跳转定义
+nmap <leader>gd <Plug>(coc-definition)
+" <leader>gr 跳转引用
+nmap <leader>gr <Plug>(coc-references)
+" <leader>gi 跳转实现
+nmap <leader>gi <Plug>(coc-implementation)
+
+inoremap <silent><expr> <TAB>
+    \ pumvisible() ? "\<C-n>" :
+    \ <SID>check_back_space() ? "\<TAB>" :
+    \ coc#refresh()
+
+
+
+
+
+
 
 
 
 " Quickly Run
-map <F5> :call CompileRunGcc()<CR>
-func! CompileRunGcc()
+map <F5> :call CompileRun()<CR>
+func! CompileRun()
     exec "w"
     if &filetype == 'c'
         exec "!g++ % -o %<"
@@ -477,14 +208,13 @@ func! CompileRunGcc()
         :!time bash %
     elseif &filetype == 'python'
         exec "!time python3 %"
-    elseif &filetype == 'html'
+    elseif &filetype == 'xhtml'
         exec "!google-chrome % &"
     elseif &filetype == 'go'
-        "        exec "!go build %<"
         exec "!time go run %"
     elseif &filetype == 'markdown'
-        exec "!~/.vim/markdown.pl % > %.html &"
-        exec "!google-chrome %.html &"
+        " exec "!~/.vim/markdown.pl % > %.html &"
+        exec "!google-chrome % > /dev/null 2>&1  &"
     endif
 endfunc
 
@@ -492,52 +222,57 @@ endfunc
 " vue high light
 au BufRead,BufNewFile *.vue set filetype=html
 
+map <F9> :colorscheme morning<CR>
+map <F10> :colorscheme elflord<CR>
 map <leader>k :bnext <CR>
 map <leader>j :bprevious <CR>
 
-" 隐藏滚动条"
+" 基础配置
+syntax on                               " 语法高亮
+set nocompatible                        " 不兼容vi
+set number                              " 显示行号
+set wrap                                " 是否折行
+set whichwrap+=<,>,h,l                  " 开启自动折行
+set hidden                              " 隐藏未保存buffer 
+set showtabline=0                       " 隐藏顶栏
+set foldenable                          " 启用折叠
+set foldmethod=indent                   " 折叠设置
+set foldlevelstart=99                   " 默认不折叠
+set cindent                             " C样式缩进
+set expandtab                           " 空格替换tab
+set tabstop=4                           " tab长度
+set shiftwidth=4                        " >>==<<
+set fileformat=unix                     " unix保存
+set fileencodings=ucs-bom,utf-8,cp936   " 探测编码
+set fileencoding=utf-8                  " 文件编码
+set encoding=utf-8                      " 内部编码
+set backspace=2                         " 退格删除任意字符
+set showmatch                           " 显示匹配括号
+set matchtime=5                         " 配对时间单位0.1s
+set scrolloff=5                         " 顶底5行
+set ignorecase                          " 忽略大小写
+set incsearch                           " 跳转首匹配
+set hlsearch                            " 高亮搜索项
+set autoread                            " vim外修改自动读入
+set autochdir                           " 自动切换工作目录
+set cursorline                          " 突出显示当前行
+set cursorcolumn                        " 突出显示当前列
+set laststatus=2                        " 状态栏
+set wildmenu                            " 命令候选
+set mouse=a                             " 鼠标
+
+if has('mouse')
+    set mouse-=a
+endif
+
+set clipboard=unnamed                   " 剪切板
+set selection=exclusive
+set selectmode=mouse,key
+
+" 隐藏滚动条
 set guioptions-=r
 set guioptions-=L
 set guioptions-=b
-
-" 基础配置"
-set nocompatible                        " 不兼容vi
-set hidden                              " 允许隐藏未保存的buffer 
-set number                              " 显示行号
-set showtabline=0                       " 隐藏顶部标签栏
-set foldenable                          " 启用折叠
-set foldmethod=indent                   " 折叠设置
-set foldlevelstart=99                   " 打开文件默认不折叠
-set nowrap                              " 设置不折行
-set fileformat=unix                     " 设置以unix的格式保存文件
-set cindent                             " 设置C样式的缩进格式
-set expandtab                           " 空格替换tab
-set tabstop=4                           " 设置table长度
-set shiftwidth=4                        " 同上
-set showmatch                           " 显示匹配的括号
-set scrolloff=5                         " 距离顶部和底部5行
-set laststatus=2                        " 命令行为两行
-set fenc=utf-8                          " 文件编码
-set enc=utf-8                           " 文件显示编码
-set backspace=2                         " 退格可以删除任意字符
-set matchtime=5                         " 括号配对时间单位0.1s
-set ignorecase                          " 忽略大小写
-set incsearch                           " 打开显示查找匹配过程
-set hlsearch                            " 高亮搜索项
-set whichwrap+=<,>,h,l                  " 开启自动折行
-set autoread                            " vim外修改后自动读入
-set cursorline                          " 突出显示当前行
-set cursorcolumn                        " 突出显示当前列
-" set mouse=a                             " 启用鼠标
-
-if has('mouse') 
-	set mouse-=a                        " 鼠标选中时不进入visual模式 
-endif 
-
-set clipboard=unnamed
-set selection=exclusive
-set selectmode=mouse,key
-syntax on                               " 开启语法高亮
 
 let g:email = "jycao.software@foxmail.com"
 
