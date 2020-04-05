@@ -1,0 +1,259 @@
+" vim-plug
+if empty(glob('~/.vim/autoload/plug.vim'))
+  silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
+    \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+  autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
+endif
+call plug#begin('~/.vim/bundle')
+Plug 'junegunn/vim-plug'                                        " 插件管理
+Plug 'preservim/nerdtree'                                       " 标签树
+Plug 'ryanoasis/vim-devicons'                                   " 标签树美化
+Plug 'tiagofumo/vim-nerdtree-syntax-highlight'                  " 标签树美化
+Plug 'vim-airline/vim-airline'                                  " 状态栏
+Plug 'vim-airline/vim-airline-themes'                           " 状态栏主题
+Plug 'preservim/nerdcommenter'                                  " 注释
+Plug 'Yggdroot/indentLine'                                      " 缩进线
+Plug 'jiangmiao/auto-pairs'                                     " 括号匹配
+Plug 'kien/rainbow_parentheses.vim'                             " 彩虹括号
+Plug 'aperezdc/vim-template'                                    " 模板
+Plug 'Yggdroot/LeaderF', { 'do': './install.sh' }               " 模糊查找
+Plug 'airblade/vim-gitgutter'                                   " git
+Plug 'tpope/vim-fugitive'                                       " git
+Plug 'dense-analysis/ale'                                       " 语义检查
+Plug 'ycm-core/YouCompleteMe', {
+        \'do':'python3 ./install.py',
+        \}                                                      " 补全
+        " \'for':'python'
+Plug 'tpope/vim-surround'
+Plug 'junegunn/fzf.vim'
+Plug '/usr/local/opt/fzf'                                       " fzf
+call plug#end()
+
+
+
+" #################### nerdtree ####################
+" F2开启
+map <F2> :NERDTreeToggle<CR>
+let NERDTreeChDirMode=1
+" 显示书签
+let NERDTreeShowBookmarks=1
+" 忽略类型
+let NERDTreeIgnore=['\~$', '\.pyc$', '\.swp$']
+" 窗宽
+let NERDTreeWinSize=25
+
+
+
+" #################### airline ####################
+" 顶栏
+let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#left_sep = ' '
+let g:airline#extensions#tabline#left_alt_sep = '|'
+let g:airline#extensions#tabline#formatter = 'default'
+let g:airline#extensions#tabline#buffer_nr_show=1
+let g:airline_theme = 'simple'
+
+
+
+" #################### nerdcommenter ####################
+" 注释号后添加空格
+let g:NERDSpaceDelims = 1
+" 多行注释使用紧凑语法
+let g:NERDCompactSexyComs = 1
+" 注释号在行最前而不是跟随缩进
+let g:NERDDefaultAlign = 'left'
+" Set a language to use its alternate delimiters by default
+"let g:NERDAltDelims_python = 1
+" 允许注释空行
+let g:NERDCommentEmptyLines = 1
+" 取消注释时启用尾随空白的修剪
+let g:NERDTrimTrailingWhitespace = 1
+" 检查所有选定的行是否已经注释
+let g:NERDToggleCheckAllLines = 1
+map <F6> <leader>ci <CR>
+
+
+
+" #################### indentLine ####################
+" 缩进指示线
+let g:indentLine_char='┆'
+let g:indentLine_enabled = 1 
+" let g:indentLine_setColors = 0
+
+
+" #################### rainbow_parentheses ####################
+let g:rbpt_colorpairs = [
+    \ ['brown',       'RoyalBlue3'],
+    \ ['Darkblue',    'SeaGreen3'],
+    \ ['darkgray',    'DarkOrchid3'],
+    \ ['darkgreen',   'firebrick3'],
+    \ ['darkcyan',    'RoyalBlue3'],
+    \ ['darkred',     'SeaGreen3'],
+    \ ['darkmagenta', 'DarkOrchid3'],
+    \ ['brown',       'firebrick3'],
+    \ ['gray',        'RoyalBlue3'],
+    \ ['black',       'SeaGreen3'],
+    \ ['darkmagenta', 'DarkOrchid3'],
+    \ ['Darkblue',    'firebrick3'],
+    \ ['darkgreen',   'RoyalBlue3'],
+    \ ['darkcyan',    'SeaGreen3'],
+    \ ['darkred',     'DarkOrchid3'],
+    \ ['red',         'firebrick3'],
+    \ ]
+let g:rbpt_max = 16
+au VimEnter * RainbowParenthesesToggle
+au Syntax * RainbowParenthesesLoadRound
+au Syntax * RainbowParenthesesLoadSquare
+au Syntax * RainbowParenthesesLoadBraces
+
+
+
+" #################### LeaderF ####################
+" 搜索结果自下而上 
+let g:Lf_ReverseOrder = 1 
+" 查找function/method
+nmap <Leader>m :LeaderfFunction<CR>
+
+
+
+" #################### ale ####################
+" 启用补全
+let g:ale_completion_enabled = 1
+" 始终开启标志列
+let g:ale_sign_column_always = 1
+let g:ale_set_highlights = 0
+" error和warning图标
+let g:ale_sign_error = '>>'
+let g:ale_sign_warning = '--'
+
+" vim自带状态栏中整合ale
+" let g:ale_statusline_format = ['✗ %d', '⚡ %d', '✔ OK']
+" let g:ale_echo_msg_error_str = 'E'
+" let g:ale_echo_msg_warning_str = 'W'
+" let g:ale_echo_msg_format = '[%linter%] %s [%severity%]'
+
+" 集成airline
+let g:airline#extensions#ale#enabled = 1 
+
+" sp上个错误或警告，sn下个错误或警告
+nmap sp <Plug>(ale_previous_wrap)
+nmap sn <Plug>(ale_next_wrap)
+" <Leader>s 触发/关闭语法检查
+nmap <Leader>s :ALEToggle<CR>
+" <Leader>i 查看错误或警告的详细信息
+nmap <Leader>i :ALEDetail<CR>
+" 错误行高度
+let g:ale_list_window_size = 5
+" 格式化引擎
+let g:ale_fixers = {
+            \   'c': ['clang-format'],
+            \   'c++': ['clang-format'],
+            \   'python': ['autopep8','yapf','isort'],
+            \}
+" F3格式化
+noremap <F3> :ALEFix<CR>
+" 保存时格式化
+let g:ale_fix_on_save = 1
+" 语法检查引擎
+let g:ale_linters = {
+            \   'c++': ['clang'],
+            \   'c': ['clang'],
+            \   'python': ['flake8','autopep8','pyls'],
+            \}
+" <leader>d 转定义
+noremap <leader>d :ALEGoToDefinition<CR>
+" <leader>r 转引用
+noremap <leader>r :ALEFindReferences<CR>
+" <leader>h 悬浮信息
+noremap <leader>h :ALEHover<CR>
+
+
+
+" #################### YouCompleteMe ####################
+" 打开vim时不再询问是否加载.ycm_extra_conf.py配置"
+let g:ycm_confirm_extra_conf=0
+set completeopt=longest,menu
+let g:ycm_global_ycm_extra_conf='~/.vim/bundle/YouCompleteMe/third_party/ycmd/.ycm_extra_conf.py'
+" 开启诊断Error、Warning显示
+let g:ycm_echo_current_diagnostic = 1
+" 是否开启语义补全
+let g:ycm_seed_identifiers_with_syntax=1
+" 开始补全的字符数
+let g:ycm_min_num_of_chars_for_completion=2
+" 补全后自动关闭预览窗口
+let g:ycm_autoclose_preview_window_after_completion=1
+" 字符串开启补全
+let g:ycm_complete_in_strings = 1
+" 注释中开启补全
+let g:ycm_complete_in_comments = 1
+" 离开插入模式后自动关闭预览窗口"
+autocmd InsertLeave * if pumvisible() == 0|pclose|endif
+" <leader>d 跳转定义
+noremap <leader>d :YcmCompleter GoToDefinition<CR>
+" <leader>r 跳转引用
+noremap <leader>r :YcmCompleter GoToReferences<CR>
+
+
+
+
+
+
+" vue high light
+au BufRead,BufNewFile *.vue set filetype=html
+
+map <F9> :colorscheme morning<CR>
+map <F10> :colorscheme elflord<CR>
+map <leader>k :bnext <CR>
+map <leader>j :bprevious <CR>
+
+" 基础配置
+syntax on                               " 语法高亮
+set nocompatible                        " 不兼容vi
+set number                              " 显示行号
+set wrap                                " 是否折行
+set whichwrap+=<,>,h,l                  " 开启自动折行
+set hidden                              " 隐藏未保存buffer 
+set showtabline=0                       " 隐藏顶栏
+set foldenable                          " 启用折叠
+set foldmethod=indent                   " 折叠设置
+set foldlevelstart=99                   " 默认不折叠
+set cindent                             " C样式缩进
+set expandtab                           " 空格替换tab
+set tabstop=4                           " tab长度
+set shiftwidth=4                        " >>==<<
+set fileformat=unix                     " unix保存
+set fileencodings=ucs-bom,utf-8,cp936   " 探测编码
+set fileencoding=utf-8                  " 文件编码
+set encoding=utf-8                      " 内部编码
+set backspace=2                         " 退格删除任意字符
+set showmatch                           " 显示匹配括号
+set matchtime=5                         " 配对时间单位0.1s
+set scrolloff=5                         " 顶底5行
+set ignorecase                          " 忽略大小写
+set incsearch                           " 跳转首匹配
+set hlsearch                            " 高亮搜索项
+set autoread                            " vim外修改自动读入
+set autochdir                           " 自动切换工作目录
+set cursorline                          " 突出显示当前行
+set cursorcolumn                        " 突出显示当前列
+set laststatus=2                        " 状态栏
+set wildmenu                            " 命令候选
+set mouse=a                             " 鼠标
+
+if has('mouse')
+    set mouse-=a
+endif
+
+set clipboard=unnamed                   " 剪切板
+set selection=exclusive
+set selectmode=mouse,key
+
+set signcolumn=yes
+
+" 隐藏滚动条
+set guioptions-=r
+set guioptions-=L
+set guioptions-=b
+
+let g:email = "jycao.software@foxmail.com"
+
