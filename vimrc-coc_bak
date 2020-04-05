@@ -169,7 +169,19 @@ noremap <leader>h :ALEHover<CR>
 
 
 " #################### coc ####################
-let g:coc_global_extensions = ['coc-json', 'coc-css', 'coc-clangd', 'coc-git', 'coc-java', 'coc-python', 'coc-xml', 'coc-yaml', 'coc-pairs', 'coc-highlight']
+let g:coc_global_extensions = [
+            \'coc-json', 
+            \'coc-css', 
+            \'coc-clangd', 
+            \'coc-git', 
+            \'coc-java', 
+            \'coc-python', 
+            \'coc-xml', 
+            \'coc-yaml', 
+            \'coc-pairs', 
+            \'coc-highlight',
+            \'coc-snippets'
+            \]
 
 " <leader>gd 跳转定义
 nmap <leader>gd <Plug>(coc-definition)
