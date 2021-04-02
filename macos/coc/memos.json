@@ -1,0 +1,1853 @@
+{
+  "coc-python|/Users/caojunyi": {
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": [],
+    "INTERPRETERS_CACHE_v3_PipEnvService": []
+  },
+  "coc-python|global": {
+    "INTERPRETERS_CACHE_v3_VirtualEnvService": [],
+    "/usr/local/bin/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/usr/local/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.7-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 7,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.7-final"
+        },
+        "sysPrefix": "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7",
+        "fileHash": "14dfea3d1163f7d0719fbe4564c649604d0490d240ead0d6dce589a37c0b817dda24f20b7846e94af48790700b55acbc68a70bbe5059eba08390968c873695db"
+      },
+      "expiry": 1592122109886
+    },
+    "/Users/caojunyi/opt/anaconda3/bin/python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/caojunyi/opt/anaconda3/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.6-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 6,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.6-final"
+        },
+        "sysPrefix": "/Users/caojunyi/opt/anaconda3",
+        "fileHash": "86eeecfb52e69935f34e1608ceffda2ca8d233ed5e91a7b2ba1089d2e8830555b09f3dda8cdc3ddb377a5c6ef706fae69a88f2e1fedfd3730730358083d9a4e5"
+      },
+      "expiry": 1608258816175
+    },
+    "/Users/caojunyi/opt/anaconda3/bin/python3.7.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/caojunyi/opt/anaconda3/bin/python3.7",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.6-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 6,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.6-final"
+        },
+        "sysPrefix": "/Users/caojunyi/opt/anaconda3",
+        "fileHash": "5ee90e12deba293aa0273da4c29fbfacc2ad7627cccdf5b597beaa5a34c62639a0290286dd33cdfdef36984dc2f0d4ede7e5bd075d2ac61cb7dd7c4b2ca1ae9f"
+      },
+      "expiry": 1608258816172
+    },
+    "/Users/caojunyi/opt/anaconda3/bin/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/caojunyi/opt/anaconda3/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.6-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 6,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.6-final"
+        },
+        "sysPrefix": "/Users/caojunyi/opt/anaconda3",
+        "fileHash": "ba5891b989aee527688f0619a5a28dd235dc3eba93801a6eba95b2842dbca8c531070abb1f791ca611d1a6f567c39c1ab7d05f3e6757532cc87b646acaa84148"
+      },
+      "expiry": 1608258816174
+    },
+    "/usr/local/bin/python3.7.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/usr/local/bin/python3.7",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.7-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 7,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.7-final"
+        },
+        "sysPrefix": "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7",
+        "fileHash": "d72c5fb38dc484ff5bbfae94dd80d618f7afe0f9a90e1eac79a18fc165122875ca625a50810c7eb8191f3c43160cfb7cb363f34890559b86edd0958d5d7cb952"
+      },
+      "expiry": 1592122109881
+    },
+    "/usr/bin/python2.7.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/usr/bin/python2.7",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.16-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 16,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.16-final"
+        },
+        "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+        "fileHash": "137b1561d07044682caaec495402b5009d0344d69278a548693f7a91dd006b6d616494122bce63e246a2646a595d466ce6818565ffb122c3b92953fa1144f4bd"
+      },
+      "expiry": 1608258816178
+    },
+    "/usr/bin/python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/usr/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.16-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 16,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.16-final"
+        },
+        "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+        "fileHash": "bfef82e4e10ffca4900ca5ae2b5a374f54413129f2cd64872463a5daf874b030126b39ce380ec885d3ce2f8629e068d1ff8d1af75f78a04c248411638368b0b6"
+      },
+      "expiry": 1608258816181
+    },
+    "INTERPRETERS_CACHE_v3_CurrentPathService": [
+      {
+        "architecture": 3,
+        "path": "/Users/caojunyi/opt/anaconda3/bin/python3.7",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.6-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 6,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.6-final"
+        },
+        "sysPrefix": "/Users/caojunyi/opt/anaconda3",
+        "fileHash": "5ee90e12deba293aa0273da4c29fbfacc2ad7627cccdf5b597beaa5a34c62639a0290286dd33cdfdef36984dc2f0d4ede7e5bd075d2ac61cb7dd7c4b2ca1ae9f",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.3-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 3,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.3-final"
+        },
+        "sysPrefix": "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7",
+        "fileHash": "35f4e271cba1925d635147b93f30711cc45c4028a76ea139b9dbe6ea8020562a25c27924c0d840640e05aa6fe2c94b9417adb23bdd832dca39eb164d78eb6363",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.16-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 16,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.16-final"
+        },
+        "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+        "fileHash": "051c6de4406034b96874507f5090d5ec2dd1e9706ca4cd1c2f3204d5775642bbdb49cc2b37dfce04c722eff395cfd9e200f8e03804118cbbbbbbe711f07457df",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.16-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 16,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.16-final"
+        },
+        "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+        "fileHash": "051c6de4406034b96874507f5090d5ec2dd1e9706ca4cd1c2f3204d5775642bbdb49cc2b37dfce04c722eff395cfd9e200f8e03804118cbbbbbbe711f07457df",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/caojunyi/opt/anaconda3/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.6-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 6,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.6-final"
+        },
+        "sysPrefix": "/Users/caojunyi/opt/anaconda3",
+        "fileHash": "86eeecfb52e69935f34e1608ceffda2ca8d233ed5e91a7b2ba1089d2e8830555b09f3dda8cdc3ddb377a5c6ef706fae69a88f2e1fedfd3730730358083d9a4e5",
+        "type": "Unknown"
+      }
+    ],
+    "InterpreterAutoSeletionRule-currentPath": {
+      "architecture": 3,
+      "path": "/Users/caojunyi/opt/anaconda3/bin/python",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.7.6-final",
+        "major": 3,
+        "minor": 7,
+        "patch": 6,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.7.6-final"
+      },
+      "sysPrefix": "/Users/caojunyi/opt/anaconda3",
+      "fileHash": "86eeecfb52e69935f34e1608ceffda2ca8d233ed5e91a7b2ba1089d2e8830555b09f3dda8cdc3ddb377a5c6ef706fae69a88f2e1fedfd3730730358083d9a4e5",
+      "type": "Unknown",
+      "cachedEntry": true
+    },
+    "preferredGlobalPyInterpreter": {
+      "architecture": 3,
+      "path": "/usr/bin/python",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.7.7-final",
+        "major": 3,
+        "minor": 7,
+        "patch": 7,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.7.7-final"
+      },
+      "sysPrefix": "/usr/local/bin/../Cellar/python/3.7.7/bin/../Frameworks/Python.framework/Versions/3.7",
+      "fileHash": "74060caccd429aa41842315fc73c09f229033679649fd80af27fdd66d6c92802c444737bf2465189be32c223a9f5f25e4f20af11cc7347925903a8a67cf694f9",
+      "type": "Unknown",
+      "displayName": "Python 3.7.7 64-bit"
+    },
+    "INTERPRETERS_CACHE_v3_KnownPathsService": [
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.16-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 16,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.16-final"
+        },
+        "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+        "fileHash": "bfef82e4e10ffca4900ca5ae2b5a374f54413129f2cd64872463a5daf874b030126b39ce380ec885d3ce2f8629e068d1ff8d1af75f78a04c248411638368b0b6",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python2",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.16-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 16,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.16-final"
+        },
+        "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+        "fileHash": "525d5d44f3c1d779e2d8dd0a241dbfc91dcc7f6481ca399a01896bfa7d9f8ff727c2a1c179e4bc6255610965c6a773884a69589360b4482677f0ab1385f12f0e",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python2.7",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.16-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 16,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.16-final"
+        },
+        "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+        "fileHash": "137b1561d07044682caaec495402b5009d0344d69278a548693f7a91dd006b6d616494122bce63e246a2646a595d466ce6818565ffb122c3b92953fa1144f4bd",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.3-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 3,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.3-final"
+        },
+        "sysPrefix": "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7",
+        "fileHash": "7e70c1a596edb099476d9b97cb537d0a2f2096ccfbf58cfad4f8ea4252ca86ca71e5d786f9a65a0949f1d3c09e4b440efc0992b6ac603726625f9f33f4bd9156",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/caojunyi/opt/anaconda3/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.6-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 6,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.6-final"
+        },
+        "sysPrefix": "/Users/caojunyi/opt/anaconda3",
+        "fileHash": "86eeecfb52e69935f34e1608ceffda2ca8d233ed5e91a7b2ba1089d2e8830555b09f3dda8cdc3ddb377a5c6ef706fae69a88f2e1fedfd3730730358083d9a4e5",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/caojunyi/opt/anaconda3/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.6-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 6,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.6-final"
+        },
+        "sysPrefix": "/Users/caojunyi/opt/anaconda3",
+        "fileHash": "ba5891b989aee527688f0619a5a28dd235dc3eba93801a6eba95b2842dbca8c531070abb1f791ca611d1a6f567c39c1ab7d05f3e6757532cc87b646acaa84148",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/caojunyi/opt/anaconda3/bin/python3.7",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.6-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 6,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.6-final"
+        },
+        "sysPrefix": "/Users/caojunyi/opt/anaconda3",
+        "fileHash": "5ee90e12deba293aa0273da4c29fbfacc2ad7627cccdf5b597beaa5a34c62639a0290286dd33cdfdef36984dc2f0d4ede7e5bd075d2ac61cb7dd7c4b2ca1ae9f",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/caojunyi/opt/anaconda3/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.6-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 6,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.6-final"
+        },
+        "sysPrefix": "/Users/caojunyi/opt/anaconda3",
+        "fileHash": "86eeecfb52e69935f34e1608ceffda2ca8d233ed5e91a7b2ba1089d2e8830555b09f3dda8cdc3ddb377a5c6ef706fae69a88f2e1fedfd3730730358083d9a4e5",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/caojunyi/opt/anaconda3/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.6-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 6,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.6-final"
+        },
+        "sysPrefix": "/Users/caojunyi/opt/anaconda3",
+        "fileHash": "ba5891b989aee527688f0619a5a28dd235dc3eba93801a6eba95b2842dbca8c531070abb1f791ca611d1a6f567c39c1ab7d05f3e6757532cc87b646acaa84148",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/caojunyi/opt/anaconda3/bin/python3.7",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.6-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 6,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.6-final"
+        },
+        "sysPrefix": "/Users/caojunyi/opt/anaconda3",
+        "fileHash": "5ee90e12deba293aa0273da4c29fbfacc2ad7627cccdf5b597beaa5a34c62639a0290286dd33cdfdef36984dc2f0d4ede7e5bd075d2ac61cb7dd7c4b2ca1ae9f",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.16-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 16,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.16-final"
+        },
+        "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+        "fileHash": "bfef82e4e10ffca4900ca5ae2b5a374f54413129f2cd64872463a5daf874b030126b39ce380ec885d3ce2f8629e068d1ff8d1af75f78a04c248411638368b0b6",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python2",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.16-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 16,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.16-final"
+        },
+        "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+        "fileHash": "525d5d44f3c1d779e2d8dd0a241dbfc91dcc7f6481ca399a01896bfa7d9f8ff727c2a1c179e4bc6255610965c6a773884a69589360b4482677f0ab1385f12f0e",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python2.7",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.16-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 16,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.16-final"
+        },
+        "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+        "fileHash": "137b1561d07044682caaec495402b5009d0344d69278a548693f7a91dd006b6d616494122bce63e246a2646a595d466ce6818565ffb122c3b92953fa1144f4bd",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.3-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 3,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.3-final"
+        },
+        "sysPrefix": "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7",
+        "fileHash": "7e70c1a596edb099476d9b97cb537d0a2f2096ccfbf58cfad4f8ea4252ca86ca71e5d786f9a65a0949f1d3c09e4b440efc0992b6ac603726625f9f33f4bd9156",
+        "type": "Unknown"
+      }
+    ],
+    "/Users/caojunyi/opt/anaconda3/bin/python.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "86eeecfb52e69935f34e1608ceffda2ca8d233ed5e91a7b2ba1089d2e8830555b09f3dda8cdc3ddb377a5c6ef706fae69a88f2e1fedfd3730730358083d9a4e5",
+        "info": {
+          "architecture": 3,
+          "path": "/Users/caojunyi/opt/anaconda3/bin/python",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.7.6-final",
+            "major": 3,
+            "minor": 7,
+            "patch": 6,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.7.6-final"
+          },
+          "sysPrefix": "/Users/caojunyi/opt/anaconda3",
+          "fileHash": "86eeecfb52e69935f34e1608ceffda2ca8d233ed5e91a7b2ba1089d2e8830555b09f3dda8cdc3ddb377a5c6ef706fae69a88f2e1fedfd3730730358083d9a4e5",
+          "companyDisplayName": "Anaconda, Inc.",
+          "type": "Conda",
+          "envPath": "/Users/caojunyi/opt/anaconda3",
+          "envName": "base",
+          "displayName": "Python 3.7.6 64-bit ('base': conda)"
+        }
+      },
+      "expiry": 1608258895352
+    },
+    "/Users/caojunyi/opt/anaconda3/envs/conda2.7/bin/python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/caojunyi/opt/anaconda3/envs/conda2.7/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.15-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 15,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.15-final"
+        },
+        "sysPrefix": "/Users/caojunyi/opt/anaconda3/envs/conda2.7",
+        "fileHash": "42d3278774fee9da40f3795d582b76170dd9d00ad204c73950e3cf9e42f6a62f1fe143fe7f614153e9140880e918592e5e499751e30ade08597e9479d3c4a7f3"
+      },
+      "expiry": 1608258816565
+    },
+    "/Users/caojunyi/opt/anaconda3/envs/conda3.7/bin/python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/caojunyi/opt/anaconda3/envs/conda3.7/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.6-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 6,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.6-final"
+        },
+        "sysPrefix": "/Users/caojunyi/opt/anaconda3/envs/conda3.7",
+        "fileHash": "ed61af6f19d892eaf9e7fa18f50bb34d33e50b4b5e1d026c084316bd24609996742350df2a4c923015a357ff81b346461a1880e8bb73348a43197e554a2413be"
+      },
+      "expiry": 1608258816563
+    },
+    "ProposeLSBanner": false,
+    "/Users/caojunyi/opt/anaconda3/bin/python.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.7.6 64-bit ('base': conda)",
+        "hash": "86eeecfb52e69935f34e1608ceffda2ca8d233ed5e91a7b2ba1089d2e8830555b09f3dda8cdc3ddb377a5c6ef706fae69a88f2e1fedfd3730730358083d9a4e5-c78fd367eb0c663b81cf5336bf72b60c"
+      },
+      "expiry": 1608258895334
+    },
+    "CONDA_ENVIRONMENTS": {
+      "data": [
+        {
+          "name": "base",
+          "path": "/Users/caojunyi/opt/anaconda3"
+        },
+        {
+          "name": "conda2.7",
+          "path": "/Users/caojunyi/opt/anaconda3/envs/conda2.7"
+        },
+        {
+          "name": "conda3.7",
+          "path": "/Users/caojunyi/opt/anaconda3/envs/conda3.7"
+        }
+      ]
+    },
+    "INTERPRETERS_CACHE_v3_CondaEnvFileService": [
+      {
+        "architecture": 3,
+        "path": "/Users/caojunyi/opt/anaconda3/envs/conda2.7/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.15-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 15,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.15-final"
+        },
+        "sysPrefix": "/Users/caojunyi/opt/anaconda3/envs/conda2.7",
+        "fileHash": "42d3278774fee9da40f3795d582b76170dd9d00ad204c73950e3cf9e42f6a62f1fe143fe7f614153e9140880e918592e5e499751e30ade08597e9479d3c4a7f3",
+        "companyDisplayName": "Anaconda, Inc.",
+        "type": "Conda",
+        "envPath": "/Users/caojunyi/opt/anaconda3/envs/conda2.7",
+        "envName": "conda2.7"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/caojunyi/opt/anaconda3/envs/conda3.7/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.6-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 6,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.6-final"
+        },
+        "sysPrefix": "/Users/caojunyi/opt/anaconda3/envs/conda3.7",
+        "fileHash": "ed61af6f19d892eaf9e7fa18f50bb34d33e50b4b5e1d026c084316bd24609996742350df2a4c923015a357ff81b346461a1880e8bb73348a43197e554a2413be",
+        "companyDisplayName": "Anaconda, Inc.",
+        "type": "Conda",
+        "envPath": "/Users/caojunyi/opt/anaconda3/envs/conda3.7",
+        "envName": "conda3.7"
+      }
+    ],
+    "INTERPRETERS_CACHE_v3_CondaEnvService": [
+      {
+        "architecture": 3,
+        "path": "/Users/caojunyi/opt/anaconda3/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.6-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 6,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.6-final"
+        },
+        "sysPrefix": "/Users/caojunyi/opt/anaconda3",
+        "fileHash": "86eeecfb52e69935f34e1608ceffda2ca8d233ed5e91a7b2ba1089d2e8830555b09f3dda8cdc3ddb377a5c6ef706fae69a88f2e1fedfd3730730358083d9a4e5",
+        "companyDisplayName": "Anaconda, Inc.",
+        "type": "Conda",
+        "envPath": "/Users/caojunyi/opt/anaconda3",
+        "envName": "base"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/caojunyi/opt/anaconda3/envs/conda2.7/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.15-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 15,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.15-final"
+        },
+        "sysPrefix": "/Users/caojunyi/opt/anaconda3/envs/conda2.7",
+        "fileHash": "42d3278774fee9da40f3795d582b76170dd9d00ad204c73950e3cf9e42f6a62f1fe143fe7f614153e9140880e918592e5e499751e30ade08597e9479d3c4a7f3",
+        "companyDisplayName": "Anaconda, Inc.",
+        "type": "Conda",
+        "envPath": "/Users/caojunyi/opt/anaconda3/envs/conda2.7",
+        "envName": "conda2.7"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/caojunyi/opt/anaconda3/envs/conda3.7/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.6-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 6,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.6-final"
+        },
+        "sysPrefix": "/Users/caojunyi/opt/anaconda3/envs/conda3.7",
+        "fileHash": "ed61af6f19d892eaf9e7fa18f50bb34d33e50b4b5e1d026c084316bd24609996742350df2a4c923015a357ff81b346461a1880e8bb73348a43197e554a2413be",
+        "companyDisplayName": "Anaconda, Inc.",
+        "type": "Conda",
+        "envPath": "/Users/caojunyi/opt/anaconda3/envs/conda3.7",
+        "envName": "conda3.7"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/caojunyi/opt/anaconda3/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.6-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 6,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.6-final"
+        },
+        "sysPrefix": "/Users/caojunyi/opt/anaconda3",
+        "fileHash": "86eeecfb52e69935f34e1608ceffda2ca8d233ed5e91a7b2ba1089d2e8830555b09f3dda8cdc3ddb377a5c6ef706fae69a88f2e1fedfd3730730358083d9a4e5",
+        "companyDisplayName": "Anaconda, Inc.",
+        "type": "Conda",
+        "envPath": "/Users/caojunyi/opt/anaconda3",
+        "envName": "base"
+      }
+    ],
+    "PipEnvInformation": [],
+    "/Users/caojunyi/opt/anaconda3/envs/conda2.7/bin/python.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 2.7.15 64-bit ('conda2.7': conda)",
+        "hash": "42d3278774fee9da40f3795d582b76170dd9d00ad204c73950e3cf9e42f6a62f1fe143fe7f614153e9140880e918592e5e499751e30ade08597e9479d3c4a7f3-03eb54eddd6f8d3a0583bb0407e1c7bf"
+      },
+      "expiry": 1608258895329
+    },
+    "/usr/local/bin/python3.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.7.7 64-bit",
+        "hash": "14dfea3d1163f7d0719fbe4564c649604d0490d240ead0d6dce589a37c0b817dda24f20b7846e94af48790700b55acbc68a70bbe5059eba08390968c873695db-2c371ab7c20d51f3ce36fbc2af6add6d"
+      },
+      "expiry": 1592122110386
+    },
+    "/Users/caojunyi/opt/anaconda3/envs/conda3.7/bin/python.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.7.6 64-bit ('conda3.7': conda)",
+        "hash": "ed61af6f19d892eaf9e7fa18f50bb34d33e50b4b5e1d026c084316bd24609996742350df2a4c923015a357ff81b346461a1880e8bb73348a43197e554a2413be-96e1e0b77236142b667ccd3c505fad22"
+      },
+      "expiry": 1608258895332
+    },
+    "/usr/bin/python.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 2.7.16 64-bit",
+        "hash": "bfef82e4e10ffca4900ca5ae2b5a374f54413129f2cd64872463a5daf874b030126b39ce380ec885d3ce2f8629e068d1ff8d1af75f78a04c248411638368b0b6-8cb82a0f6a54cfa0b569ff2b80d95a4c"
+      },
+      "expiry": 1608258816773
+    },
+    "/usr/bin/python2.7.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 2.7.10 64-bit",
+        "hash": "8231f462c4d08b086f0f76f6c7d8699cb0f70d083b5e3e0f718cda5b81727cd740200e38f6de1a05aaedd10bc0c75291b626996fdf10c2f45831f14577c33bfb-eb934b8375e82daa465c46fe2d88c8ef"
+      },
+      "expiry": 1586142621662
+    },
+    "/Users/caojunyi/opt/anaconda3/envs/conda2.7/bin/python.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "42d3278774fee9da40f3795d582b76170dd9d00ad204c73950e3cf9e42f6a62f1fe143fe7f614153e9140880e918592e5e499751e30ade08597e9479d3c4a7f3",
+        "info": {
+          "architecture": 3,
+          "path": "/Users/caojunyi/opt/anaconda3/envs/conda2.7/bin/python",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "2.7.15-final",
+            "major": 2,
+            "minor": 7,
+            "patch": 15,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "2.7.15-final"
+          },
+          "sysPrefix": "/Users/caojunyi/opt/anaconda3/envs/conda2.7",
+          "fileHash": "42d3278774fee9da40f3795d582b76170dd9d00ad204c73950e3cf9e42f6a62f1fe143fe7f614153e9140880e918592e5e499751e30ade08597e9479d3c4a7f3",
+          "companyDisplayName": "Anaconda, Inc.",
+          "type": "Conda",
+          "envPath": "/Users/caojunyi/opt/anaconda3/envs/conda2.7",
+          "envName": "conda2.7",
+          "displayName": "Python 2.7.15 64-bit ('conda2.7': conda)"
+        }
+      },
+      "expiry": 1608258895342
+    },
+    "/usr/local/bin/python3.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "14dfea3d1163f7d0719fbe4564c649604d0490d240ead0d6dce589a37c0b817dda24f20b7846e94af48790700b55acbc68a70bbe5059eba08390968c873695db",
+        "info": {
+          "architecture": 3,
+          "path": "/usr/local/bin/python3",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.7.7-final",
+            "major": 3,
+            "minor": 7,
+            "patch": 7,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.7.7-final"
+          },
+          "sysPrefix": "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7",
+          "fileHash": "14dfea3d1163f7d0719fbe4564c649604d0490d240ead0d6dce589a37c0b817dda24f20b7846e94af48790700b55acbc68a70bbe5059eba08390968c873695db",
+          "type": "Unknown",
+          "displayName": "Python 3.7.7 64-bit"
+        }
+      },
+      "expiry": 1592122110438
+    },
+    "/Users/caojunyi/opt/anaconda3/envs/conda3.7/bin/python.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "ed61af6f19d892eaf9e7fa18f50bb34d33e50b4b5e1d026c084316bd24609996742350df2a4c923015a357ff81b346461a1880e8bb73348a43197e554a2413be",
+        "info": {
+          "architecture": 3,
+          "path": "/Users/caojunyi/opt/anaconda3/envs/conda3.7/bin/python",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.7.6-final",
+            "major": 3,
+            "minor": 7,
+            "patch": 6,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.7.6-final"
+          },
+          "sysPrefix": "/Users/caojunyi/opt/anaconda3/envs/conda3.7",
+          "fileHash": "ed61af6f19d892eaf9e7fa18f50bb34d33e50b4b5e1d026c084316bd24609996742350df2a4c923015a357ff81b346461a1880e8bb73348a43197e554a2413be",
+          "companyDisplayName": "Anaconda, Inc.",
+          "type": "Conda",
+          "envPath": "/Users/caojunyi/opt/anaconda3/envs/conda3.7",
+          "envName": "conda3.7",
+          "displayName": "Python 3.7.6 64-bit ('conda3.7': conda)"
+        }
+      },
+      "expiry": 1608258895348
+    },
+    "/usr/bin/python.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "bfef82e4e10ffca4900ca5ae2b5a374f54413129f2cd64872463a5daf874b030126b39ce380ec885d3ce2f8629e068d1ff8d1af75f78a04c248411638368b0b6",
+        "info": {
+          "architecture": 3,
+          "path": "/usr/bin/python",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "2.7.16-final",
+            "major": 2,
+            "minor": 7,
+            "patch": 16,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "2.7.16-final"
+          },
+          "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+          "fileHash": "bfef82e4e10ffca4900ca5ae2b5a374f54413129f2cd64872463a5daf874b030126b39ce380ec885d3ce2f8629e068d1ff8d1af75f78a04c248411638368b0b6",
+          "type": "Unknown",
+          "displayName": "Python 2.7.16 64-bit"
+        }
+      },
+      "expiry": 1608258844628
+    },
+    "/usr/bin/python2.7.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "8231f462c4d08b086f0f76f6c7d8699cb0f70d083b5e3e0f718cda5b81727cd740200e38f6de1a05aaedd10bc0c75291b626996fdf10c2f45831f14577c33bfb",
+        "info": {
+          "architecture": 3,
+          "path": "/usr/bin/python2.7",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "2.7.10-final",
+            "major": 2,
+            "minor": 7,
+            "patch": 10,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "2.7.10-final"
+          },
+          "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+          "fileHash": "8231f462c4d08b086f0f76f6c7d8699cb0f70d083b5e3e0f718cda5b81727cd740200e38f6de1a05aaedd10bc0c75291b626996fdf10c2f45831f14577c33bfb",
+          "type": "Unknown",
+          "displayName": "Python 2.7.10 64-bit"
+        }
+      },
+      "expiry": 1586142621723
+    },
+    "SelectedPythonPath": "/Users/caojunyi/opt/anaconda3/bin/python",
+    "/usr/local/opt/python/bin/python3.7.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/usr/local/opt/python/bin/python3.7",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.7-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 7,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.7-final"
+        },
+        "sysPrefix": "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7",
+        "fileHash": "04cb973d72fa29e8f887d204e35ca8d811925f168922f3470f6145ae8c9d9cb31252d70403b71d8ecb69820c81de4de9eb53e9c8a2836b0123e8de50c089390f"
+      },
+      "expiry": 1588982535857
+    },
+    "/Users/caojunyi/opt/anaconda3/envs/conda3.7/bin/python3.7.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/caojunyi/opt/anaconda3/envs/conda3.7/bin/python3.7",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.6-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 6,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.6-final"
+        },
+        "sysPrefix": "/Users/caojunyi/opt/anaconda3/envs/conda3.7",
+        "fileHash": "852141111ed3e93c684b190b4fa8267b7d4ad70bf64f459c21f5f92f1bec086c1b19c811a2b9421bd4b031879f32cec6cd57196fd62b0c973a920c55fb13f56a"
+      },
+      "expiry": 1608261480613
+    },
+    "/Users/caojunyi/opt/anaconda3/envs/conda3.7/bin/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/caojunyi/opt/anaconda3/envs/conda3.7/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.6-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 6,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.6-final"
+        },
+        "sysPrefix": "/Users/caojunyi/opt/anaconda3/envs/conda3.7",
+        "fileHash": "b8a52f48269382cd4cf798d757c93c0a21d19721a9511f74a349003097881002292921d3d506bc44f3994c82c0d7ac04115915d095d35b7e18130cecc64942c7"
+      },
+      "expiry": 1608261480612
+    },
+    "/usr/local/opt/python/bin/python3.7.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.7.7 64-bit",
+        "hash": "04cb973d72fa29e8f887d204e35ca8d811925f168922f3470f6145ae8c9d9cb31252d70403b71d8ecb69820c81de4de9eb53e9c8a2836b0123e8de50c089390f-31fc5b0bf8ebfd881914cf17c7089d23"
+      },
+      "expiry": 1588982535988
+    },
+    "/usr/local/opt/python/bin/python3.7.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "04cb973d72fa29e8f887d204e35ca8d811925f168922f3470f6145ae8c9d9cb31252d70403b71d8ecb69820c81de4de9eb53e9c8a2836b0123e8de50c089390f",
+        "info": {
+          "architecture": 3,
+          "path": "/usr/local/opt/python/bin/python3.7",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.7.7-final",
+            "major": 3,
+            "minor": 7,
+            "patch": 7,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.7.7-final"
+          },
+          "sysPrefix": "/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7",
+          "fileHash": "04cb973d72fa29e8f887d204e35ca8d811925f168922f3470f6145ae8c9d9cb31252d70403b71d8ecb69820c81de4de9eb53e9c8a2836b0123e8de50c089390f",
+          "type": "Unknown",
+          "displayName": "Python 3.7.7 64-bit"
+        }
+      },
+      "expiry": 1588982536002
+    },
+    "/usr/bin/python2.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/usr/bin/python2",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.16-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 16,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.16-final"
+        },
+        "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+        "fileHash": "525d5d44f3c1d779e2d8dd0a241dbfc91dcc7f6481ca399a01896bfa7d9f8ff727c2a1c179e4bc6255610965c6a773884a69589360b4482677f0ab1385f12f0e"
+      },
+      "expiry": 1608258816179
+    },
+    "/System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.16-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 16,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.16-final"
+        },
+        "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+        "fileHash": "051c6de4406034b96874507f5090d5ec2dd1e9706ca4cd1c2f3204d5775642bbdb49cc2b37dfce04c722eff395cfd9e200f8e03804118cbbbbbbe711f07457df"
+      },
+      "expiry": 1608258816319
+    },
+    "/usr/bin/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/usr/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.3-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 3,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.3-final"
+        },
+        "sysPrefix": "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7",
+        "fileHash": "7e70c1a596edb099476d9b97cb537d0a2f2096ccfbf58cfad4f8ea4252ca86ca71e5d786f9a65a0949f1d3c09e4b440efc0992b6ac603726625f9f33f4bd9156"
+      },
+      "expiry": 1608258816177
+    },
+    "/usr/bin/python3.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.7.3 64-bit",
+        "hash": "7e70c1a596edb099476d9b97cb537d0a2f2096ccfbf58cfad4f8ea4252ca86ca71e5d786f9a65a0949f1d3c09e4b440efc0992b6ac603726625f9f33f4bd9156-43dc2e79c2e13172cb81d3af1f827ef6"
+      },
+      "expiry": 1608258816539
+    },
+    "/System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 2.7.16 64-bit",
+        "hash": "051c6de4406034b96874507f5090d5ec2dd1e9706ca4cd1c2f3204d5775642bbdb49cc2b37dfce04c722eff395cfd9e200f8e03804118cbbbbbbe711f07457df-f22f02a09f6f7618d2980327050ec6e3"
+      },
+      "expiry": 1608258816546
+    },
+    "/usr/bin/python3.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "7e70c1a596edb099476d9b97cb537d0a2f2096ccfbf58cfad4f8ea4252ca86ca71e5d786f9a65a0949f1d3c09e4b440efc0992b6ac603726625f9f33f4bd9156",
+        "info": {
+          "architecture": 3,
+          "path": "/usr/bin/python3",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.7.3-final",
+            "major": 3,
+            "minor": 7,
+            "patch": 3,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.7.3-final"
+          },
+          "sysPrefix": "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7",
+          "fileHash": "7e70c1a596edb099476d9b97cb537d0a2f2096ccfbf58cfad4f8ea4252ca86ca71e5d786f9a65a0949f1d3c09e4b440efc0992b6ac603726625f9f33f4bd9156",
+          "type": "Unknown",
+          "displayName": "Python 3.7.3 64-bit"
+        }
+      },
+      "expiry": 1608258816585
+    },
+    "/System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "051c6de4406034b96874507f5090d5ec2dd1e9706ca4cd1c2f3204d5775642bbdb49cc2b37dfce04c722eff395cfd9e200f8e03804118cbbbbbbe711f07457df",
+        "info": {
+          "architecture": 3,
+          "path": "/System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "2.7.16-final",
+            "major": 2,
+            "minor": 7,
+            "patch": 16,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "2.7.16-final"
+          },
+          "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+          "fileHash": "051c6de4406034b96874507f5090d5ec2dd1e9706ca4cd1c2f3204d5775642bbdb49cc2b37dfce04c722eff395cfd9e200f8e03804118cbbbbbbe711f07457df",
+          "type": "Unknown",
+          "displayName": "Python 2.7.16 64-bit"
+        }
+      },
+      "expiry": 1608258816594
+    },
+    "/Library/Developer/CommandLineTools/usr/bin/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.3-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 3,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.3-final"
+        },
+        "sysPrefix": "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7",
+        "fileHash": "35f4e271cba1925d635147b93f30711cc45c4028a76ea139b9dbe6ea8020562a25c27924c0d840640e05aa6fe2c94b9417adb23bdd832dca39eb164d78eb6363"
+      },
+      "expiry": 1608258816320
+    },
+    "/Library/Developer/CommandLineTools/usr/bin/python3.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.7.3 64-bit",
+        "hash": "35f4e271cba1925d635147b93f30711cc45c4028a76ea139b9dbe6ea8020562a25c27924c0d840640e05aa6fe2c94b9417adb23bdd832dca39eb164d78eb6363-98812efe01890936ac238dfae6615ee0"
+      },
+      "expiry": 1608258816541
+    },
+    "InterpreterAutoSeletionRule-system": {
+      "architecture": 3,
+      "path": "/Users/caojunyi/opt/anaconda3/envs/conda3.7/bin/python",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.7.6-final",
+        "major": 3,
+        "minor": 7,
+        "patch": 6,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.7.6-final"
+      },
+      "sysPrefix": "/Users/caojunyi/opt/anaconda3/envs/conda3.7",
+      "fileHash": "ed61af6f19d892eaf9e7fa18f50bb34d33e50b4b5e1d026c084316bd24609996742350df2a4c923015a357ff81b346461a1880e8bb73348a43197e554a2413be",
+      "companyDisplayName": "Anaconda, Inc.",
+      "type": "Conda",
+      "envPath": "/Users/caojunyi/opt/anaconda3/envs/conda3.7",
+      "envName": "conda3.7",
+      "cachedEntry": true,
+      "displayName": "Python 3.7.6 64-bit ('conda3.7': conda)"
+    },
+    "/Library/Developer/CommandLineTools/usr/bin/python3.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "35f4e271cba1925d635147b93f30711cc45c4028a76ea139b9dbe6ea8020562a25c27924c0d840640e05aa6fe2c94b9417adb23bdd832dca39eb164d78eb6363",
+        "info": {
+          "architecture": 3,
+          "path": "/Library/Developer/CommandLineTools/usr/bin/python3",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.7.3-final",
+            "major": 3,
+            "minor": 7,
+            "patch": 3,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.7.3-final"
+          },
+          "sysPrefix": "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7",
+          "fileHash": "35f4e271cba1925d635147b93f30711cc45c4028a76ea139b9dbe6ea8020562a25c27924c0d840640e05aa6fe2c94b9417adb23bdd832dca39eb164d78eb6363",
+          "type": "Unknown",
+          "displayName": "Python 3.7.3 64-bit"
+        }
+      },
+      "expiry": 1608258816589
+    },
+    "InterpreterAutoSeletionRule-cachedInterpreters": {
+      "architecture": 3,
+      "path": "/Users/caojunyi/opt/anaconda3/envs/conda3.7/bin/python",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.7.6-final",
+        "major": 3,
+        "minor": 7,
+        "patch": 6,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.7.6-final"
+      },
+      "sysPrefix": "/Users/caojunyi/opt/anaconda3/envs/conda3.7",
+      "fileHash": "ed61af6f19d892eaf9e7fa18f50bb34d33e50b4b5e1d026c084316bd24609996742350df2a4c923015a357ff81b346461a1880e8bb73348a43197e554a2413be",
+      "companyDisplayName": "Anaconda, Inc.",
+      "type": "Conda",
+      "envPath": "/Users/caojunyi/opt/anaconda3/envs/conda3.7",
+      "envName": "conda3.7",
+      "cachedEntry": true,
+      "displayName": "Python 3.7.6 64-bit ('conda3.7': conda)"
+    }
+  },
+  "coc-python|/Users/caojunyi/.vim": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:de255d3f7d38190193f389ef1a2d0b58": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:de255d3f7d38190193f389ef1a2d0b58": [],
+    "autoSelectedWorkspacePythonInterpreter-/Users/caojunyi/.vim": {
+      "architecture": 3,
+      "path": "/usr/bin/python",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.7.7-final",
+        "major": 3,
+        "minor": 7,
+        "patch": 7,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.7.7-final"
+      },
+      "sysPrefix": "/usr/local/bin/../Cellar/python/3.7.7/bin/../Frameworks/Python.framework/Versions/3.7",
+      "fileHash": "74060caccd429aa41842315fc73c09f229033679649fd80af27fdd66d6c92802c444737bf2465189be32c223a9f5f25e4f20af11cc7347925903a8a67cf694f9",
+      "type": "Unknown",
+      "displayName": "Python 3.7.7 64-bit"
+    },
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": [],
+    "SelectedPythonPath": "/Users/caojunyi/opt/anaconda3/envs/conda3.7/bin/python"
+  },
+  "coc-python|/Users/caojunyi/code-project/system-profile": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:6b746f89c749956bcd504ffc021494a3": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:6b746f89c749956bcd504ffc021494a3": [],
+    "autoSelectedWorkspacePythonInterpreter-/Users/caojunyi/code-project/system-profile": {
+      "architecture": 3,
+      "path": "/usr/bin/python",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.7.7-final",
+        "major": 3,
+        "minor": 7,
+        "patch": 7,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.7.7-final"
+      },
+      "sysPrefix": "/usr/local/bin/../Cellar/python/3.7.7/bin/../Frameworks/Python.framework/Versions/3.7",
+      "fileHash": "74060caccd429aa41842315fc73c09f229033679649fd80af27fdd66d6c92802c444737bf2465189be32c223a9f5f25e4f20af11cc7347925903a8a67cf694f9",
+      "type": "Unknown",
+      "displayName": "Python 3.7.7 64-bit"
+    },
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": [],
+    "SelectedPythonPath": "/Users/caojunyi/opt/anaconda3/envs/conda3.7/bin/python"
+  },
+  "coc-python|/Users/caojunyi/code-project/PycharmProjects/PancreasGUI": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:ca8372a9d1d8c76162019182a9fa5a35": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:ca8372a9d1d8c76162019182a9fa5a35": [],
+    "autoSelectedWorkspacePythonInterpreter-/Users/caojunyi/code-project/PycharmProjects/PancreasGUI": {
+      "architecture": 3,
+      "path": "/usr/bin/python",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.7.7-final",
+        "major": 3,
+        "minor": 7,
+        "patch": 7,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.7.7-final"
+      },
+      "sysPrefix": "/usr/local/bin/../Cellar/python/3.7.7/bin/../Frameworks/Python.framework/Versions/3.7",
+      "fileHash": "74060caccd429aa41842315fc73c09f229033679649fd80af27fdd66d6c92802c444737bf2465189be32c223a9f5f25e4f20af11cc7347925903a8a67cf694f9",
+      "type": "Unknown",
+      "displayName": "Python 3.7.7 64-bit"
+    },
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": [],
+    "SelectedPythonPath": "/Users/caojunyi/opt/anaconda3/envs/conda3.7/bin/python"
+  },
+  "coc-python|/Users/caojunyi/code-project/PycharmProjects": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:51520bb061af080cb33408d41712fcc8": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:51520bb061af080cb33408d41712fcc8": [],
+    "autoSelectedWorkspacePythonInterpreter-/Users/caojunyi/code-project/PycharmProjects": {
+      "architecture": 3,
+      "path": "/usr/bin/python",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.7.7-final",
+        "major": 3,
+        "minor": 7,
+        "patch": 7,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.7.7-final"
+      },
+      "sysPrefix": "/usr/local/bin/../Cellar/python/3.7.7/bin/../Frameworks/Python.framework/Versions/3.7",
+      "fileHash": "74060caccd429aa41842315fc73c09f229033679649fd80af27fdd66d6c92802c444737bf2465189be32c223a9f5f25e4f20af11cc7347925903a8a67cf694f9",
+      "type": "Unknown",
+      "displayName": "Python 3.7.7 64-bit"
+    },
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": [],
+    "SelectedPythonPath": "/Users/caojunyi/opt/anaconda3/envs/conda3.7/bin/python"
+  },
+  "coc-python|/Users/caojunyi/.vim/bundle/vim-template": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:5320e0a2dee59007e52860c2fb7a5a3a": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:5320e0a2dee59007e52860c2fb7a5a3a": [],
+    "autoSelectedWorkspacePythonInterpreter-/Users/caojunyi/.vim/bundle/vim-template": {
+      "architecture": 3,
+      "path": "/usr/bin/python",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.7.7-final",
+        "major": 3,
+        "minor": 7,
+        "patch": 7,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.7.7-final"
+      },
+      "sysPrefix": "/usr/local/bin/../Cellar/python/3.7.7/bin/../Frameworks/Python.framework/Versions/3.7",
+      "fileHash": "74060caccd429aa41842315fc73c09f229033679649fd80af27fdd66d6c92802c444737bf2465189be32c223a9f5f25e4f20af11cc7347925903a8a67cf694f9",
+      "type": "Unknown",
+      "displayName": "Python 3.7.7 64-bit"
+    },
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": [],
+    "SelectedPythonPath": "/Users/caojunyi/opt/anaconda3/envs/conda3.7/bin/python"
+  },
+  "coc-python|/Users/caojunyi/PancreasSegmentation": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:745123c3f30b01f1990206d47ce58a47": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:745123c3f30b01f1990206d47ce58a47": [],
+    "autoSelectedWorkspacePythonInterpreter-/Users/caojunyi/PancreasSegmentation": {
+      "architecture": 3,
+      "path": "/usr/bin/python",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.7.7-final",
+        "major": 3,
+        "minor": 7,
+        "patch": 7,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.7.7-final"
+      },
+      "sysPrefix": "/usr/local/bin/../Cellar/python/3.7.7/bin/../Frameworks/Python.framework/Versions/3.7",
+      "fileHash": "74060caccd429aa41842315fc73c09f229033679649fd80af27fdd66d6c92802c444737bf2465189be32c223a9f5f25e4f20af11cc7347925903a8a67cf694f9",
+      "type": "Unknown",
+      "displayName": "Python 3.7.7 64-bit"
+    },
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": [],
+    "SelectedPythonPath": "/Users/caojunyi/opt/anaconda3/envs/conda3.7/bin/python"
+  },
+  "coc-python|/Users/caojunyi/Downloads": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:69a970b7a9ecc119a89a8d0d3d35fbb0": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:69a970b7a9ecc119a89a8d0d3d35fbb0": [],
+    "autoSelectedWorkspacePythonInterpreter-/Users/caojunyi/Downloads": {
+      "architecture": 3,
+      "path": "/usr/bin/python",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.7.7-final",
+        "major": 3,
+        "minor": 7,
+        "patch": 7,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.7.7-final"
+      },
+      "sysPrefix": "/usr/local/bin/../Cellar/python/3.7.7/bin/../Frameworks/Python.framework/Versions/3.7",
+      "fileHash": "74060caccd429aa41842315fc73c09f229033679649fd80af27fdd66d6c92802c444737bf2465189be32c223a9f5f25e4f20af11cc7347925903a8a67cf694f9",
+      "type": "Unknown",
+      "displayName": "Python 3.7.7 64-bit"
+    },
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": [],
+    "SelectedPythonPath": "/Users/caojunyi/opt/anaconda3/envs/conda3.7/bin/python"
+  },
+  "coc-python|/Users/caojunyi/Downloads/theweb": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:7777d38b52ae07e57f97236b7aa2ee84": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:7777d38b52ae07e57f97236b7aa2ee84": [],
+    "autoSelectedWorkspacePythonInterpreter-/Users/caojunyi/Downloads/theweb": {
+      "architecture": 3,
+      "path": "/usr/bin/python",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.7.7-final",
+        "major": 3,
+        "minor": 7,
+        "patch": 7,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.7.7-final"
+      },
+      "sysPrefix": "/usr/local/bin/../Cellar/python/3.7.7/bin/../Frameworks/Python.framework/Versions/3.7",
+      "fileHash": "74060caccd429aa41842315fc73c09f229033679649fd80af27fdd66d6c92802c444737bf2465189be32c223a9f5f25e4f20af11cc7347925903a8a67cf694f9",
+      "type": "Unknown",
+      "displayName": "Python 3.7.7 64-bit"
+    },
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": [],
+    "SelectedPythonPath": "/Users/caojunyi/opt/anaconda3/envs/conda3.7/bin/python"
+  },
+  "coc-python|/Users/caojunyi/Downloads/theweb/app_mysystem": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:2eed394c3040be0ea6171fd4e5548950": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:2eed394c3040be0ea6171fd4e5548950": [],
+    "autoSelectedWorkspacePythonInterpreter-/Users/caojunyi/Downloads/theweb/app_mysystem": {
+      "architecture": 3,
+      "path": "/usr/bin/python",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.7.7-final",
+        "major": 3,
+        "minor": 7,
+        "patch": 7,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.7.7-final"
+      },
+      "sysPrefix": "/usr/local/bin/../Cellar/python/3.7.7/bin/../Frameworks/Python.framework/Versions/3.7",
+      "fileHash": "74060caccd429aa41842315fc73c09f229033679649fd80af27fdd66d6c92802c444737bf2465189be32c223a9f5f25e4f20af11cc7347925903a8a67cf694f9",
+      "type": "Unknown",
+      "displayName": "Python 3.7.7 64-bit"
+    },
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": [],
+    "SelectedPythonPath": "/usr/local/bin/python3"
+  },
+  "coc-python|/Users/caojunyi/fsdownload": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:e3a1a3d1339472b711e7f7e6df6c3225": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:e3a1a3d1339472b711e7f7e6df6c3225": [],
+    "autoSelectedWorkspacePythonInterpreter-/Users/caojunyi/fsdownload": {
+      "architecture": 3,
+      "path": "/usr/bin/python",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.7.7-final",
+        "major": 3,
+        "minor": 7,
+        "patch": 7,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.7.7-final"
+      },
+      "sysPrefix": "/usr/local/bin/../Cellar/python/3.7.7/bin/../Frameworks/Python.framework/Versions/3.7",
+      "fileHash": "74060caccd429aa41842315fc73c09f229033679649fd80af27fdd66d6c92802c444737bf2465189be32c223a9f5f25e4f20af11cc7347925903a8a67cf694f9",
+      "type": "Unknown",
+      "displayName": "Python 3.7.7 64-bit"
+    },
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": [],
+    "SelectedPythonPath": "/Users/caojunyi/opt/anaconda3/envs/conda3.7/bin/python"
+  },
+  "coc-python|/Users/caojunyi/workspace/temp/config": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:a04b8d53103db0cbf12aec1dd94e52c8": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:a04b8d53103db0cbf12aec1dd94e52c8": [],
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": [],
+    "autoSelectedWorkspacePythonInterpreter-/Users/caojunyi/workspace/temp/config": {
+      "architecture": 3,
+      "path": "/usr/bin/python",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.7.7-final",
+        "major": 3,
+        "minor": 7,
+        "patch": 7,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.7.7-final"
+      },
+      "sysPrefix": "/usr/local/bin/../Cellar/python/3.7.7/bin/../Frameworks/Python.framework/Versions/3.7",
+      "fileHash": "74060caccd429aa41842315fc73c09f229033679649fd80af27fdd66d6c92802c444737bf2465189be32c223a9f5f25e4f20af11cc7347925903a8a67cf694f9",
+      "type": "Unknown",
+      "displayName": "Python 3.7.7 64-bit"
+    },
+    "SelectedPythonPath": "/Users/caojunyi/opt/anaconda3/bin/python"
+  }
+}
